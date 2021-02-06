@@ -1,7 +1,7 @@
 <h1 align="center" title="CS50 by Harvard">
     CS50 by
     <img align="center" height="200px" 
-	 src="https://github.com/VictorCrisostomo/CS50/blob/main/assets/harvard-logo.png?raw=true" 
+	 src="https://github.com/VictorCrisostomo/CS50/blob/main/assets/harvard-logo.png" 
 	 alt="Harvard Logo" 
      />
 </h1>
@@ -53,7 +53,7 @@
 ## 😺 Problem Set 0
 
 <p align="center">
-      <img align="center" height="300px" src="https://github.com/VictorCrisostomo/CS50/blob/main/assets/poke.png?raw=true" alt="Poke.io" title="Poke.io"/>
+      <img align="center" height="300px" src="https://github.com/VictorCrisostomo/CS50/blob/main/assets/poke.png" alt="Poke.io" title="Poke.io"/>
 </p>
 
 ### 💻 Project

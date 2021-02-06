@@ -33,3 +33,23 @@
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-final-project">Final Project</a>
 </p>
+
+<h3 align="center">
+      📖 Notes:
+</h3>
+
+<p align="center">
+      It is forbidden to copy and paste code, don't forget to read the <a href="https://cs50.harvard.edu/x/2021/honesty">cs50 academic honesty policy</a>.
+</p>
+
+<p align="center">
+     Your contribution to improve my code is appreciable, if you have a suggestion feel free to open a pull request.
+</p>
+
+<p align="center">
+      All codes are verified by check50, however the style is not 1.0 since I use as default 2 spaces for identification and style50 uses 4
+</p>
+
+<p align="center">
+      English is not my native language, sorry for any mistake!
+</p>

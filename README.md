@@ -85,3 +85,12 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
       <a href="https://github.com/VictorCrisostomo/CS50/raw/main/ProblemSet-0/poke.io.sb3">Download Poke.io.sb3</a>
 </p>
       
+## ⌨️ Problem Set 1
+
+### 👋 Hello
+
+<p>
+	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-1/hello.c">View Code</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="https://submit.cs50.io/check50/b51c3378b43cd29f74ad68942caecd3baf950f56">Check50</a>
+</p>

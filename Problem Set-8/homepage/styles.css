@@ -1,0 +1,94 @@
+body {
+    background: rgb(58, 93, 250);
+    font: normal 15pt 'Nunito', sans-serif;
+}
+
+.container {
+    background: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.308) 2px 2px 50px;
+}
+
+.nav {
+    border-bottom: 2px solid #ffd666;
+    margin-bottom: 20px;
+    padding-bottom:12px;
+
+}
+
+.active {
+    background: #ffd666;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align:center;
+}
+
+.content-box {
+    margin-top: 30px;
+    display:flex;
+    border-radius:15px;
+    margin-bottom:30px;
+    align-items: center;
+}
+
+.content-box-item p {
+    padding: 0 30px;
+}
+
+.content-box-item img {
+    width: 24rem;
+    height: 24rem;
+    border-radius: 50%;
+
+    margin: auto;
+}
+
+footer {
+    font-size: 15px;
+    text-align: center;
+    border-top: 2px solid #ffd666;
+    padding-top: 20px;
+    margin-top: 20px;
+    color: #333;
+    text-shadow: rgba(0, 0, 0, 0.308) 2px 2px 50px;
+}
+
+textarea {
+    height: 150px !important;
+    resize: none;
+}
+
+.alert {
+    display: none;
+}
+
+.insta-photos {
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+}
+
+@media only screen and (max-width:800px) {
+    .content-box {
+        display: block;
+        flex: auto;
+    }
+
+    .content-box-item img {
+        width: 24rem;
+        height: 24rem;
+        border-radius: 50%;
+
+        margin: auto;
+    }
+
+    .content-box-item p {
+        padding: 0 30px;
+        text-align: center;
+    }
+}

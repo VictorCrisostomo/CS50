@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device, initial-scale=1, shrink-to-fit=no">
+
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <div class="container">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html"><strong>Home</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutme.html"><strong>About me</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="photos.html"><strong>photos</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"><strong>Contact me</strong></a>
+                </li>
+            </ul>
+            <h1>Victor Crisóstomo</h1>
+            <h2>Contact me</h2>
+            <form onsubmit="sendMessage(); return false;">
+                <div class="alert alert-danger alert-dismissible fade show">
+                    <button type="button" class="close" data-dismiss="alert" onclick="hidde()">&times;</button>
+                    Pleas fill in all the fileds.
+                </div>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" placeholder="name..." id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" class="form-control" placeholder="E-mail..." id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" row="5" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primaty mb-2">Send</button>
+            </form>
+            <footer> &copy; By VictorCrisostomo</footer>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

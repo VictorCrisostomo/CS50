@@ -112,7 +112,7 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
 
 ## ⌨️ Problem Set 2
 
-### Readability
+### 🔎 Readability
 
 <p>
 	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-2/readability.c">View Code</a>
@@ -120,7 +120,7 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
 	<a href="https://submit.cs50.io/check50/9deacccb31119efb3b2ed6ca9f1a831dc22bba2c">Check50</a>
 </p>
 
-### Caesar
+### 🤴🏽 Caesar
 
 <p>
 	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-2/caesar.c">View Code</a>
@@ -130,7 +130,7 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
 
 ## ⌨️ Problem Set 3
 
-### Plurality
+### 🗂 Plurality
 
 <p>
 	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-3/plurality.c">View Code</a>
@@ -138,7 +138,7 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
 	<a href="https://submit.cs50.io/check50/4c1f072aa59066b1ff04a8a0a3ceeb891d73f35d">Check50</a>
 </p>
 
-### Runoff
+### 💧 Runoff
 
 <p>
 	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-3/runoff.c">View Code</a>
@@ -148,14 +148,14 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
 
 ## ⌨️ Problem Set 4
 
-### Filter
+### ⚙ Filter
 <p>
 	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-4/helpers.c">View Code</a>
 	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="https://submit.cs50.io/check50/041510197c7d59975b752a0be32caa7df4bcb2a2">Check50</a>
 </p>
 
-### Recover
+### ♻ Recover
 <p>
 	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-4/recover.c">View Code</a>
 	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -164,16 +164,16 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
 
 ## ⌨️ Problem Set 5
 
-### Speller
+### 📗 Speller
 <p>
 	<a href="https://github.com/VictorCrisostomo/CS50/tree/main/Problem%20Set-5">View Code</a>
 	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="https://submit.cs50.io/check50/04361e18c98167b411d99089333a3ec5de7c36eb">Check50</a>
 </p>
 
-## ⌨️ Problem Set 6
+## ⌨️ Problem Set 6 🐍
 
-### Hello
+### 👋 Hello (python)
 <p>
 	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-6/hello.py">View Code</a>
 	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -194,14 +194,14 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
 	<a href="https://submit.cs50.io/check50/f577bfa033294ee400e82b7021376c5466da90aa">Check50</a>
 </p>
 
-### Readability (python)
+### 🔎 Readability (python)
 <p>
 	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-6/readability.py">View Code</a>
 	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="https://submit.cs50.io/check50/514cebc99e84eb8a6aba25a10d48563f9321a97b">Check50</a>
 </p>
 
-### DNA (python)
+### 🧬 DNA (python)
 <p>
 	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-6/dna.py">View Code</a>
 	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -210,14 +210,14 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
 
 ## ⌨️ Problem Set 7
 
-### Movies
+### 🎬 Movies
 <p>
 	<a href="https://github.com/VictorCrisostomo/CS50/tree/main/Problem%20Set-7/movies">View Code</a>
 	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="https://submit.cs50.io/check50/1008ae98fe92bedd2e24d7a1824def49ecf23784">Check50</a>
 </p>
 
-### Houses
+### 🏠 Houses
 
 <p>
 	<a href="https://github.com/VictorCrisostomo/CS50/tree/main/Problem%20Set-7/houses">View Code</a>
@@ -227,7 +227,7 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
 
 ## ⌨️ Problem Set 8 (Web)
 
-### Homepage
+### 🧑🏽 Homepage
 <p>
 	<a href="https://github.com/VictorCrisostomo/CS50/tree/main/Problem%20Set-8/homepage">View Code</a>
 	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -236,7 +236,7 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
 	<a href="">View Demo</a>
 </p>
 
-### Finance
+### 💲 Finance
 <p>
 	<a href="https://github.com/VictorCrisostomo/CS50/tree/main/Problem%20Set-8/finance">View Code</a>
 	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -247,9 +247,9 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
 
 ## ⌨️ Problem Set 9
 
-### In Progress 
+### ⏳ In Progress... 
 
 ## 🔚 Final Project
 
-### In Progress 
+### ⏳ In Progress... 
 

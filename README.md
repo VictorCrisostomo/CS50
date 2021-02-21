@@ -109,3 +109,41 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
 	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="https://submit.cs50.io/check50/b7543041bde2bd57d1655ca8d7f0d457d495a11d">Check50</a>
 </p>
+
+## ⌨️ Problem Set 2
+
+### Readability
+
+<p>
+	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-2/readability.c">View Code</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="https://submit.cs50.io/check50/9deacccb31119efb3b2ed6ca9f1a831dc22bba2c">Check50</a>
+</p>
+
+### Caesar
+
+<p>
+	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-2/caesar.c">View Code</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="https://submit.cs50.io/check50/dfeadc912812f0ebe173a6ef02c07d7f0d6f4727">Check50</a>
+</p>
+
+## ⌨️ Problem Set 3
+
+## ⌨️ Problem Set 4
+
+## ⌨️ Problem Set 5
+
+## ⌨️ Problem Set 6
+
+## ⌨️ Problem Set 7
+
+## ⌨️ Problem Set 8
+<p>
+	<a href="">View Code</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="">Check50</a>
+</p>
+
+## ⌨️ Problem Set 9
+## 🔚 Final Project

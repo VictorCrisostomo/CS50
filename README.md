@@ -210,12 +210,46 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
 
 ## ⌨️ Problem Set 7
 
-## ⌨️ Problem Set 8
+### Movies
 <p>
-	<a href="">View Code</a>
+	<a href="https://github.com/VictorCrisostomo/CS50/tree/main/Problem%20Set-7/movies">View Code</a>
 	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-	<a href="">Check50</a>
+	<a href="https://submit.cs50.io/check50/1008ae98fe92bedd2e24d7a1824def49ecf23784">Check50</a>
+</p>
+
+### Houses
+
+<p>
+	<a href="https://github.com/VictorCrisostomo/CS50/tree/main/Problem%20Set-7/houses">View Code</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="https://submit.cs50.io/check50/04405da8ecce6266aa29b04d86c3dcb039dedfb1">Check50</a>
+</p>
+
+## ⌨️ Problem Set 8 (Web)
+
+### Homepage
+<p>
+	<a href="https://github.com/VictorCrisostomo/CS50/tree/main/Problem%20Set-8/homepage">View Code</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="https://submit.cs50.io/check50/0996a8ac854cba6e5a8434a8f0cf7920ef6f5ffd">Check50</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="">View Demo</a>
+</p>
+
+### Finance
+<p>
+	<a href="https://github.com/VictorCrisostomo/CS50/tree/main/Problem%20Set-8/finance">View Code</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="https://submit.cs50.io/check50/24f8f8ba944c9241fb7a9db8fff854959cc80ce8">Check50</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="">View Demo</a>
 </p>
 
 ## ⌨️ Problem Set 9
+
+### In Progress 
+
 ## 🔚 Final Project
+
+### In Progress 
+

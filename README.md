@@ -130,9 +130,46 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
 
 ## ⌨️ Problem Set 3
 
+### Plurality
+
+<p>
+	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-3/plurality.c">View Code</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="https://submit.cs50.io/check50/4c1f072aa59066b1ff04a8a0a3ceeb891d73f35d">Check50</a>
+</p>
+
+### Runoff
+
+<p>
+	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-3/runoff.c">View Code</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="https://submit.cs50.io/check50/8a723c9645c63004827aef6ad9c38a528e019248">Check50</a>
+</p>
+
 ## ⌨️ Problem Set 4
 
+### Filter
+<p>
+	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-4/helpers.c">View Code</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="https://submit.cs50.io/check50/041510197c7d59975b752a0be32caa7df4bcb2a2">Check50</a>
+</p>
+
+### Recover
+<p>
+	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-4/recover.c">View Code</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="https://submit.cs50.io/check50/0194736d5f58b62b7e9a648c941b5e4179c89172">Check50</a>
+</p>
+
 ## ⌨️ Problem Set 5
+
+### Speller
+<p>
+	<a href="https://github.com/VictorCrisostomo/CS50/tree/main/Problem%20Set-5">View Code</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="https://submit.cs50.io/check50/04361e18c98167b411d99089333a3ec5de7c36eb">Check50</a>
+</p>
 
 ## ⌨️ Problem Set 6
 

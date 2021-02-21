@@ -94,3 +94,18 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
 	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 	<a href="https://submit.cs50.io/check50/b51c3378b43cd29f74ad68942caecd3baf950f56">Check50</a>
 </p>
+
+### 🍄 Mario less comfortable
+
+<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-1/mario.c">View Code</a>
+&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="https://submit.cs50.io/check50/d758333ee86379d332805647a8215b20ff2e03ac">Check50</a>
+</p>
+
+### 💰 Cash
+
+<p>
+	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-1/cash.c">View Code</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="https://submit.cs50.io/check50/b7543041bde2bd57d1655ca8d7f0d457d495a11d">Check50</a>
+</p>

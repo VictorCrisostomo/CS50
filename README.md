@@ -173,6 +173,41 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
 
 ## ⌨️ Problem Set 6
 
+### Hello
+<p>
+	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-6/hello.py">View Code</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="https://submit.cs50.io/check50/64fb8448b92a3083ebae076c2460e3ecf5c27072">Check50</a>
+</p>
+
+### 🍄 Mario less comfortable (python)
+<p>
+	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-6/mario.py">View Code</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="https://submit.cs50.io/check50/b306a9829c40826200e73751b954df4d0292fbd4">Check50</a>
+</p>
+
+### 💰 Cash (python)
+<p>
+	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-6/cash.py">View Code</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="https://submit.cs50.io/check50/f577bfa033294ee400e82b7021376c5466da90aa">Check50</a>
+</p>
+
+### Readability (python)
+<p>
+	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-6/readability.py">View Code</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="https://submit.cs50.io/check50/514cebc99e84eb8a6aba25a10d48563f9321a97b">Check50</a>
+</p>
+
+### DNA (python)
+<p>
+	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-6/dna.py">View Code</a>
+	&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+	<a href="https://submit.cs50.io/check50/c1bc73173bb34ddb45aee69638b306ecb2731bfc">Check50</a>
+</p>
+
 ## ⌨️ Problem Set 7
 
 ## ⌨️ Problem Set 8

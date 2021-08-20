@@ -247,7 +247,9 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
 
 ## ⌨️ Problem Set 9
 
-### ⏳ In Progress... 
+### 📰 Fake News
+<p>
+	<a href="">View Solution</a>
 
 ## 🔚 Final Project
 

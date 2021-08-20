@@ -249,13 +249,13 @@ In this first Harvard CS50 problem set, I decided to make a game inspired by ani
 
 ### 📰 Fake News
 <p>
-	<a href="">View Solution</a>
-
+	<a href="https://github.com/VictorCrisostomo/CS50/blob/main/Problem%20Set-9/Facebook%20and%20Fake%20News.pdf">View Solution</a>
+</p>
 
 ## 🔚 Final Project
 
 ### ⏳ In Progress...
 <p>
-	<a href="">View Progress</a>
+	<a href="https://github.com/VictorCrisostomo/CS50/tree/main/Final%20Project/the-new-work-times">View Progress</a>
 </p> 
 

@@ -1,3 +1,12 @@
 body {
     min-width: 372px;
 }
+
+#header {
+    padding: 2rem 0 10rem;
+}
+
+#cards {
+    padding: 1.5rem 2rem;
+    margin-top: -8rem;
+}

@@ -7,19 +7,72 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+   <!--CSS-->
     <link rel="stylesheet" href="css/styles.css">
 
     <title>The New Work Times</title>
   </head>
   <body>
 
+    <!--HEADER-->
       <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container justify-content-center">
-        <h1>The New Work Times</h1>
+        <img src="images/logo.svg" alt="The New Work Times">
         </div>
     </nav>
 
-        <div id="cards" class="container">
+    <!--CARDS-->
+    <div class="col-12 col-md-10 offset-md-1" id="cards">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <div class="gap-2 btn-group" role="group">
+                <button type="button" class="btn btn-secondary">Left</button>
+                <button type="button" class="btn btn-secondary">Middle</button>
+                <button type="button" class="btn btn-secondary">Right</button>
+              </div>
+              <div id="pomodoro">
+                <h1 class="display-1"><strong>25:00</strong></h1>
+              </div>
+              <div id="start">
+                <button type="button" class="btn btn-dark">START</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+
+ 
+
+
+
+    <!-- JavaScript -->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+
+       <!-- <div id="cards" class="container">
           <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
                 <div class="card">
@@ -48,15 +101,4 @@
                   </div>
                 </div>
               </div>
-      </div>
-
-   
-
- 
-
-
-
-    <!-- JavaScript -->
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
-</html>
+      </div> -->

@@ -1,12 +1,75 @@
+/*UNIVESAL*/
+.bg-primary-color {
+    background-color: #fff;
+}
+.bg-secondary-color {
+    background-color: #ece8ea;
+}
+.bg-dark-color {
+    background-color: #050505;
+}
+.primary-color {
+    color: #050505;
+}
+.secondary-color {
+    color: #7a7a7a;
+}
+
+
+/*HEADER*/
 body {
-    min-width: 372px;
+    min-height: 657px;
+    width: 100%;
 }
 
 #header {
     padding: 2rem 0 10rem;
 }
 
+
+/*CARDS*/
 #cards {
-    padding: 1.5rem 2rem;
+    margin-bottom: 4em;
     margin-top: -8rem;
 }
+
+#cards .card {
+    border-radius: 0;
+    margin-bottom: 1em;
+}
+
+
+/* BUTTONS OF POMODORO */
+#pomo-buttons {
+    margin-top: -1rem;
+}
+
+#start {
+    margin-top: 1rem;
+    border-radius: 0;
+    margin: 10px;
+
+    padding: 2px 12px;
+    height: 35px;
+}
+
+#pomo-buttons {
+    border-radius: 0;
+    margin: 0px;
+
+    padding: 2px 12px;
+    height: 28px;
+}
+
+@media (min-width: 768px) {
+    #secondary-cards {
+        margin-top: 2rem;
+    }
+}
+
+
+/*SLIDER*/
+#slider-container {
+    padding: 0em;
+}
+

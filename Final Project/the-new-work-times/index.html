@@ -4,11 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-   <!--CSS-->
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+  crossorigin="anonymous"></script>
+  
+  <!--CSS-->
     <link rel="stylesheet" href="css/styles.css">
 
     <title>The New Work Times</title>
@@ -25,36 +29,92 @@
     <!--CARDS-->
     <div class="col-12 col-md-10 offset-md-1" id="cards">
       <div class="row">
+
+        <!--CALENDAR-->
+        <div class="col-12 col-md-4">
+          <div class="card text-center" id="secondary-cards">
+            <div class="card-body">
+              <img src="/Final Project/the-new-work-times/images/calendar.png" alt="calendar" class="d-block w-100">
+            </div>
+          </div>
+        </div>
+
+        <!--POMODORO-->
         <div class="col-12 col-md-4">
           <div class="card text-center">
             <div class="card-body">
-              <div class="gap-2 btn-group" role="group">
-                <button type="button" class="btn btn-secondary">Left</button>
-                <button type="button" class="btn btn-secondary">Middle</button>
-                <button type="button" class="btn btn-secondary">Right</button>
+              <div class="gap-1 btn-group" role="group">
+                <button type="button" id="pomo-buttons" class="btn btn-secondary btn-sm">Pomodoro</button>
+                <button type="button" id="pomo-buttons" class="btn btn-secondary btn-sm">Short Break</button>
+                <button type="button" id="pomo-buttons" class="btn btn-secondary btn-sm">Long Break</button>
               </div>
               <div id="pomodoro">
                 <h1 class="display-1"><strong>25:00</strong></h1>
               </div>
-              <div id="start">
-                <button type="button" class="btn btn-dark">START</button>
+              <div>
+                <button type="button" id="start" class="btn btn-dark">START</button>
               </div>
             </div>
           </div>
         </div>
 
+        <!--SLIDE-->
         <div class="col-12 col-md-4">
-          <div class="card text-center">
-            <div class="card-body">
-
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-4">
-          <div class="card text-center">
-            <div class="card-body">
-
+          <div class="card text-center" id="secondary-cards">
+            <div class="card-body" id="slider-container">
+              <div class="carousel slide" id="slider" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button
+                  type="button"
+                  data-bs-target="#slider"
+                  data-bs-slide-to="0"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                  ></button>
+                  <button
+                  type="button"
+                  class="active"
+                  data-bs-target="#slider"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                  ></button>
+                  <button
+                  type="button"
+                  data-bs-target="#slider"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="https://www.nytimes.com/" target="_blank">
+                      <img src="/Final Project/the-new-work-times/images/slide/TNYT.jpg" alt="TNYT 1" class="d-block w-100">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://edition.cnn.com/" target="_blank">
+                      <img src="/Final Project/the-new-work-times/images/slide/CNN.jpg" alt="CNN 2" class="d-block w-100">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="https://www.wsj.com/" target="_blank">
+                      <img src="/Final Project/the-new-work-times/images/slide/WSJ.jpg" alt="WSJ 3" class="d-block w-100">
+                    </a>
+                  </div>
+                </div>
+                <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide="prev"
+                ></button>
+                <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide="next"
+                ></button>
+              </div>
             </div>
           </div>
         </div>
@@ -67,38 +127,6 @@
 
 
 
-    <!-- JavaScript -->
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
   </body>
 </html>
-
-       <!-- <div id="cards" class="container">
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-              <div class="col">
-                <div class="card">
-                  <div class="card-body">
-                      <div id="pomo-buttons" class="d-grid gap-2 d-md-flex justify-content-md-center">
-                        <button class="btn btn-secondary btn-sm" type="button">start</button>
-                        <button class="btn btn-secondary btn-sm" type="button">short break</button>
-                        <button class="btn btn-secondary btn-sm" type="button">long break</button>
-                      </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                  </div>
-                </div>
-              </div>
-      </div> -->

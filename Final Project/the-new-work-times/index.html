@@ -17,10 +17,10 @@
 
     <title>The New Work Times</title>
   </head>
-  <body>
+  <body onload="time()">
 
     <!--HEADER-->
-      <nav id="header" class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav id="header" class="navbar navbar-expand-lg navbar-light bg-secondary-color">
         <div class="container justify-content-center">
         <img src="images/logo.svg" alt="The New Work Times">
         </div>
@@ -30,15 +30,18 @@
     <div class="col-12 col-md-10 offset-md-1" id="cards">
       <div class="row">
 
-        <!--CALENDAR-->
+        <!--LOCATION, DATE AND TIME-->
         <div class="col-12 col-md-4">
           <div class="card text-center" id="secondary-cards">
             <div class="card-body">
-              <div class="date">
+              <div id="date">
                 <p>Canavieiras, 30 de agosto de 2021</p>
               </div>
-              <div class="hour">
-                <h1 class="display-1">20:00</h1>
+              <div>
+                <h1 id="hour" class="display-1"></h1>
+              </div>
+              <div id="salutation">
+                Good Night
               </div>
             </div>
           </div>
@@ -126,12 +129,44 @@
       </div>
     </div>
 
+   
+
+    <div id="section-tasks" class="container">
+
+      <h6 class="display-6 text-center">Tasks</h6>
+
+      <div class="row">
+        <div class="col mb-3">
+          <div>
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div>
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div>
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+          </div>
+        </div>
+    </div>
+
+    </div>
+
   
 
- 
+<!--Java Script-->
+<script src="/Final Project/the-new-work-times/scripts/date.js"></script>
+<script src="/Final Project/the-new-work-times/scripts/pomodoro.js"></script>
+<script src="/Final Project/the-new-work-times/scripts/tasks.js"></script>
 
-
-
-
-  </body>
+</body>
 </html>
+
+
+

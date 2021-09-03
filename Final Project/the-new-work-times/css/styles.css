@@ -1,9 +1,9 @@
 /*UNIVESAL*/
 .bg-primary-color {
-    background-color: #fff;
+    background-color: #f6f3ec;
 }
 .bg-secondary-color {
-    background-color: #ece8ea;
+    background-color: #e1e1dd;
 }
 .bg-dark-color {
     background-color: #050505;
@@ -20,6 +20,7 @@
 body {
     min-height: 657px;
     width: 100%;
+    background-color: #f6f3ec;
 }
 
 #header {
@@ -71,5 +72,10 @@ body {
 /*SLIDER*/
 #slider-container {
     padding: 0em;
+}
+
+/* SECTION TASKS */
+#section-tasks {
+    margin-top: -4rem;
 }
 

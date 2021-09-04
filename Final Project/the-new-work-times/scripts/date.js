@@ -1,9 +1,43 @@
+const days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+]
+const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+]
+function formatDate() {
+    const date = new Date()
+
+    const year = date.getFullYear()
+    let month = date.getMonth()
+    let dayOfWeek = date.getDay()
+    let day = date.getDate()
+
+    date.innerHTML `${dayOfWeek} | ${month} ${day}, ${year}`
+}
+console.log(formatDate())
 const date = window.document.getElementById('date');
 
 function time () {
     const data = new Date()
     
-    const hour = window.document.getElementById('hour');
+    let hour = window.document.getElementById('hour');
     let salutation = window.document.getElementById('salutation');
 
     let hours = data.getHours()
@@ -16,15 +50,13 @@ function time () {
         min = `0${min}`
     }
     
-
     hour.innerHTML = `${hours}:${min}`
     if (hours >= 0 && hours < 12) {
-        salutation = "Good Morning"
-    } else if (hours >= 12 && hours < 18) {
-        salutation = "Good afternoon"
+        salutation.innerHTML = "Good Morning"
+    } else if (hours >= 12 && hours <= 18) {
+        salutation.innerHTML = "Good afternoon"
     } else {
-        salutation = "Good Night"
+        salutation.innerHTML = "Good Night"
     }
 }
-
 const temp = setInterval(time,1000);

@@ -28,6 +28,7 @@ const months = [
     let dayOfWeek = date.getDay()
     let day = date.getDate()
 
+    //DAYS OF WEEK
     if (dayOfWeek == 0) {dayOfWeek = days[0]}
     if (dayOfWeek == 1) {dayOfWeek = days[1]}
     if (dayOfWeek == 2) {dayOfWeek = days[2]}
@@ -36,6 +37,7 @@ const months = [
     if (dayOfWeek == 5) {dayOfWeek = days[5]}
     if (dayOfWeek == 6) {dayOfWeek = days[6]}
 
+    //MONTHS
     if (month == 0) {month = months[0]}
     if (month == 1) {month = months[1]}
     if (month == 2) {month = months[2]}

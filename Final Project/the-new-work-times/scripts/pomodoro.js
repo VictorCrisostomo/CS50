@@ -3,12 +3,13 @@ let countdown;
 let variable;
 
 //Element from the DOM
+const display = document.querySelector('#time');
 const allbtns = document.querySelectorAll('.set');
+const start = document.querySelector('#start');
 const pomodoro = document.querySelector('#pomodoro');
 const shortB = document.querySelector('#short-b');
 const longB = document.querySelector('#long-b');
-const display = document.querySelector('#time');
-const start = document.querySelector('#start');
+
 const settings = document.querySelector('#btn-modal');
 const modal = document.querySelector('.modal-content');
 const timerPomo = document.querySelector('#pomo');
@@ -33,7 +34,7 @@ function resetInCase() {
     timerPomo.value = "25";
     timerShort.value = "5";
     timerLong.value = "10";
-    toggleBtn.value = false;
+    toggleBtn.checked = false; 
 }
 
 function changePom(e) {
@@ -85,10 +86,10 @@ function checkIt() {
     if(
         timerPomo.value <= 0 ||
         timerPomo.value % 1 !== 0 ||
-        timerShort.value <= 0 ||
         timerShort.value % 1 !== 0 ||
-        timerLong.value <= 0 ||
-        timerLong.value % 1 !== 0
+        timerLong.value % 1 !== 0 || 
+        timerShort.value <= 0 ||
+        timerLong.value <= 0 
     ) {
         return false;
     } else {
@@ -121,7 +122,11 @@ function callClosure() {
                 minutes.push(display.textContent[contador]);
                 contador++;
             }
-            let seconds = parseInt(minutes.join(""));
+            let seconds = parseInt(
+                display.textContent[display.textContent.length - 2] +
+                display.textContent[display.textContent.length - 1]
+            );
+            minutes = parseInt(minutes.join(""));
             variable = minutes * 60 + seconds;
             console.log(`case 2 ${variable}`);
         } else if (e.target.textContent === "START" && variable !== undefined) {
@@ -141,7 +146,7 @@ allbtns.forEach((element) => {
 });
 
 function checkActive() {
-    allbtns.forEach((element) =>{
+    allbtns.forEach((element) => {
         if (element.classList.contains("active")) {
             element.classList.remove("active");
         }

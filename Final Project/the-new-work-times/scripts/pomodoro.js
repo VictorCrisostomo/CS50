@@ -9,7 +9,7 @@ const start = document.querySelector('#start');
 const pomodoro = document.querySelector('#pomodoro');
 const shortB = document.querySelector('#short-b');
 const longB = document.querySelector('#long-b');
-
+const body = document.querySelector('body');
 const settings = document.querySelector('#btn-modal');
 const modal = document.querySelector('.modal-content');
 const timerPomo = document.querySelector('#pomo');
@@ -137,6 +137,31 @@ function callClosure() {
         }
     };
 }
+
+body.addEventListener("click", (e) => {
+    if (e.target.id === "short-b") {
+        clearInterval(countdown);
+        variable = undefined;
+        display.textContent =`${shortB.dataset.min}:00`;
+        timeSet = toSeconds(shortB.dataset.min);
+        console.log(timeSet);
+        start.textContent = "START";
+    } else if (e.target.id === "pomodoro") {
+        clearInterval(countdown);
+        variable = undefined;
+        display.textContent =`${pomodoro.dataset.min}:00`;
+        timeSet = toSeconds(pomodoro.dataset.min);
+        console.log(timeSet);
+        start.textContent = "START";
+    } else if (e.target.id === "long-b") {
+        clearInterval(countdown);
+        variable = undefined;
+        display.textContent = `${longB.dataset.min}:00`;
+        timeSet = toSeconds(longB.dataset.min);
+        console.log(timeSet);
+        start.textContent = "START"
+    }
+});
 
 allbtns.forEach((element) => {
     element.addEventListener("click", (e) => {

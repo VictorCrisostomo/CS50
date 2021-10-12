@@ -25,7 +25,6 @@
     <!--CARDS-->
     <div class="col-12 col-md-10 offset-md-1" id="cards">
       <div class="row">
-
         <!--LOCATION, DATE AND TIME-->
         <div class="col-12 col-md-4">
           <div class="card text-center" id="secondary-cards">
@@ -42,7 +41,6 @@
             </div>
           </div>
         </div>
-
         <!--POMODORO-->
         <div class="col-12 col-md-4">
           <div class="card text-center">
@@ -53,7 +51,7 @@
                 <button type="button" id="long-b" class="set btn btn-secondary btn-sm" data-min="10">Long Break</button>
               </div>
               <div>
-                <h1 class="display-1" id="time"><strong>25:00</strong></h1>
+                <h1 class="display-1" id="time">25:00</h1>
               </div>
               <div>
                 <button type="button" id="start" class="btn btn-dark">START</button>
@@ -65,65 +63,9 @@
         </div>
 
         <audio
-          id="audio"
-          src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg"
-        ></audio>
-
-
-
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title display-6" id="exampleModalLabel"><strong>Timer Settings</strong></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-
-        <div class="row">
-          <div class="col">
-            <input type="number" min="1" max="60" id="pomo"  class="form-control" placeholder="Pomodoro" aria-label="Pomodoro">
-          </div>
-          <div class="col">
-            <input type="number" min="1" max="60" id="sho-b" class="form-control" placeholder="Short Break" aria-label="Short Break">
-          </div>
-          <div class="col">
-            <input type="number" min="1" max="60" id="lon-b"  class="form-control" placeholder="Long Break" aria-label="Long Break">
-          </div>
-        </div>
-
-        <hr />
-
-        <div id="modal-toggle">
-          <p>Auto start next session?</p>
-            <label class="switch">
-              <input type="checkbox" id="check" />
-              <span class="slider round"></span>
-            </label>
-        </div>
-        <hr />
-        <div id="modal-volume">
-          <p>Volume</p>
-            <input
-              type="range"
-              min="0.01"
-              max="1"
-              step="0.01"
-              value="50"
-              id="volume"
-          /></div>
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" id="btn-close" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" id="btn-save" class="btn btn-dark">Save</button>
-      </div>
-    </div>
-  </div>
-        </div>
-        <!--END MODAL-->
-
+        id="audio"
+        src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg"
+      ></audio>
         <!--SLIDE-->
         <div class="col-12 col-md-4">
           <div class="card text-center" id="secondary-cards">
@@ -188,34 +130,114 @@
     </div>
 
     <!--SECTIONS TASKS-->
-    <div id="section-tasks" class="container">
+    <div class="col-12 col-md-10 offset-md-1" id="section-tasks">
 
-      <h6 class="display-6 text-center">Tasks</h6>
+      <!--ADD NEW TASK-->
+      <div class="header-task">
+        <button type="button" class="btn btn-secondary" id="add-task" data-bs-toggle="modal" data-bs-target="#modal-task">
+          Add New task
+        </button>
+        <h6 class="display-6 text-center text-task">Tasks</h6>
+      </div>
 
+      <!--TASKS-->
       <div class="row">
-        <div class="col mb-3">
-          <div>
-            <label for="exampleFormControlTextarea1" class="form-label">Task 1</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque beatae incidunt, perspiciatis nemo error id voluptatum expedita voluptatem modi ea velit odit. Voluptatibus cupiditate, odio quidem nostrum sapiente iste incidunt.</textarea>
+        <div class="col-12 col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <div>
+                <div class="output-data no-task" id="output-data"></div>
+                <div class="title-close task">
+                    <h6 class="title-task">Title</h6>
+                    <button type="button" class="btn-close btn-remove" id="btn-remove" aria-label="Close"></button>
+                </div>
+                <p class="text-task">What are you working on?</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col mb-3">
-          <div>
-            <label for="exampleFormControlTextarea1" class="form-label">Task 2</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores asperiores officia molestias ullam repellat, non in, autem debitis nihil, laudantium explicabo magnam voluptas modi minus minima quae at tempora libero?</textarea>
-          </div>
-        </div>
-        <div class="col mb-3">
-          <div>
-            <label for="exampleFormControlTextarea1" class="form-label">Task 3</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas laborum harum consequuntur, odio repudiandae reiciendis non esse temporibus ullam facilis consequatur dolor odit repellat eos omnis, quia voluptate culpa ex!</textarea>
-          </div>
-        </div>
+
+      </div>
     </div>
 
-    </div>
+    <!-- MODAL POMODORO -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title display-6" id="exampleModalLabel"><strong>Timer Settings</strong></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+            
+                    <div class="row">
+                      <div class="col">
+                        <input type="number" min="1" max="60" id="pomo"  class="form-control" placeholder="Pomodoro" aria-label="Pomodoro">
+                      </div>
+                      <div class="col">
+                        <input type="number" min="1" max="60" id="sho-b" class="form-control" placeholder="Short Break" aria-label="Short Break">
+                      </div>
+                      <div class="col">
+                        <input type="number" min="1" max="60" id="lon-b"  class="form-control" placeholder="Long Break" aria-label="Long Break">
+                      </div>
+                    </div>
+            
+                    <hr />
+            
+                    <div id="modal-toggle">
+                      <p>Auto start next session?</p>
+                        <label class="switch">
+                          <input type="checkbox" id="check" />
+                          <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <hr />
+                    <div id="modal-volume">
+                      <p>Volume</p>
+                        <input
+                          type="range"
+                          min="0.01"
+                          max="1"
+                          step="0.01"
+                          value="50"
+                          id="volume"
+                      /></div>
+            
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" id="btn-close" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" id="btn-save" class="btn btn-dark">Save</button>
+                  </div>
+                </div>
+              </div>
+                    </div>
 
-  
+          <!-- MODAL TASKS -->
+          <div class="modal fade" id="modal-task" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Add new Task</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                 <div class="add-new-task" id="add-new-task">
+                   <section>
+                    <input class="form-control form-control-sm" id="title-new-task" type="text" placeholder="title">
+                     <hr>
+                     <textarea class="form-control" id="text-new-task"></textarea>
+                   </section>
+                  </div> 
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-dark" id="btn-add-task">Save</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
 <!--Java Script-->
 <script src="/Final Project/the-new-work-times/scripts/date.js"></script>

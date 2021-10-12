@@ -158,15 +158,41 @@ body {
     background-color: rgb(204, 204, 204);
     appearance: none;
     border-radius: 50px;
-    height: 15px;
+    height: 6px;
   }
 
-@media (min-width: 768px) {
-    #secondary-cards {
-        margin-top: 2rem;
-    }
+  /*TASKS*/
+  .header-task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 33rem;
+  }
+
+.text-task {
+    display: flex;
+    align-items: center;
+
 }
 
+.title-close {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5em;
+}
+
+  .input-card-title {
+      border: none;
+  }
+
+  #add-task {
+    border-radius: 0;
+    padding: 2px 12px;
+    height: 35px;
+  }
 
 /*SLIDER*/
 #slider-container {
@@ -175,6 +201,6 @@ body {
 
 /* SECTION TASKS */
 #section-tasks {
-    margin-top: -4rem;
+    margin-top: -3rem;
 }
 

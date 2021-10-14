@@ -67,7 +67,7 @@ class Bd {
 
     loadTasks(tasks = this.recoverTasks()) {
         tasks.forEach((n) => {
-            const task = document.querySelector('main > .task').cloneNode(true)
+            const task = document.querySelector('main > .container > .task').cloneNode(true)
 
             task.setAttribute('id', `N${n.id}`)
             task.querySelector('.title-task').textContent = n.title
@@ -93,13 +93,14 @@ document.addEventListener('click', el => {
     } else if (textNewTask.value.trim() == '') {
         textNewTask.value = ''
         textNewTask.setAttribute('placeholder', '')
+        //textNewTask.style.height = '45px';
         //fieldNewTask.parentElement.classList.remove('active')
     }
 
     if (e.id === 'btn-add-task') {
         bd.registerTask();
         clearFields();
-        existsTask()
+        existsTask();
     }
 
     if (e.id === 'btn-remove'){
@@ -110,7 +111,7 @@ document.addEventListener('click', el => {
     }
 })
 
-function clearFields(){
+function clearFields() {
     titleNewTask.value = ''
     textNewTask.value = ''
 
@@ -119,7 +120,7 @@ function clearFields(){
 }
 
 function existsTask() {
-    if (outputData.hasChildrenNodes())
+    if (outputData.hasChildNodes())
         outputData.classList.remove('noTask')
     else
         outputData.classList.add('noTask')

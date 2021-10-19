@@ -15,14 +15,17 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>The New Work Times</title>
   </head>
+
   <body>
+
     <!--HEADER-->
       <nav id="header" class="navbar navbar-expand-lg navbar-light bg-secondary-color">
         <div class="container justify-content-center">
         <img src="images/logo.svg" alt="The New Work Times">
         </div>
     </nav>
-    <main>
+  <main>
+
     <!--CARDS-->
     <div class="col-12 col-md-10 offset-md-1" id="cards">
       <div class="row">
@@ -138,24 +141,24 @@
         <button type="button" class="btn btn-secondary" id="add-task" data-bs-toggle="modal" data-bs-target="#modal-task">
           Add New task
         </button>
-        <h6 class="display-6 text-center text-task">Tasks</h6>
+        <h6 class="display-6 text-center txt-task">Tasks</h6>
       </div>
+    </div>
 
-      <div class="output-data no-task" id='output-data'></div>
-            <div class="card text-center task">
-              <div class="card-body">
-                  <div class="title-close ">
-                      <h6 class="title-task"></h6>
-                      <button type="button" class="btn-close btn-remove" id="btn-remove" aria-label="Close"></button>
-                  </div>
-                  <p class="text-task"></p>
-              </div>
+    <div class="container-sm">
+
+          <!--TASKS-->
+          <div class="output-data no-task" id='output-data'>
+          </div>
+          <div class="card text-center task">
+            <div class="card-body card-task">
+                <div class="title-close ">
+                    <h6 class="title-task"><strong></strong></h6>
+                    <button type="button" class="btn-close btn-remove" id="btn-remove" aria-label="Close"></button>
+                </div>
+                <p class="text-task"></p>
             </div>
-
-  
-        
-
-      <!--TASKS-->
+          </div>
 
     </div>
 
@@ -220,7 +223,6 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
               <section class="add-new-task" id="add-new-task">
-                <section>
                 <div class="modal-body">
                     <section>
                       <input class="form-control form-control-sm" id="title-new-task" type="text" placeholder="title">
@@ -232,7 +234,6 @@
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                   <button type="button" class="btn btn-dark" id="btn-add-task">Save</button>
                 </div>
-              </section>
               </section>
               </div>
             </div>

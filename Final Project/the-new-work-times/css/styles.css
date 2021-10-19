@@ -172,16 +172,27 @@ body {
     margin-right: 33rem;
   }
 
+  .card-task {
+    padding: .5rem;
+  }
+
 .text-task {
     display: flex;
     align-items: center;
+    margin-bottom: 0;
 
+}
+
+.txt-task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
 }
 
 .title-close {
     display: flex;
     justify-content: space-between;
-    margin-bottom: .5em;
+    margin-bottom: 0;
 }
 
   .input-card-title {
@@ -202,5 +213,17 @@ body {
 /* SECTION TASKS */
 #section-tasks {
     margin-top: -3rem;
+}
+
+.container-sm {
+  width: 50%;
+}
+
+.task {
+  margin-bottom: 5px;
+}
+
+main> .container-sm > .task {
+  display: none;
 }
 

@@ -1,5 +1,5 @@
 //'use strict';
-fieldNewTask = document.querySelectorAll('.add-new-task > section > section'),
+fieldNewTask = document.querySelectorAll('.add-new-task > .modal-dody > section'),
 titleNewTask = document.querySelector('#title-new-task'),
 textNewTask = document.querySelector('#text-new-task'),
 outputData = document.querySelector('#output-data')
@@ -27,7 +27,7 @@ class Bd {
         let id = Number(localStorage.getItem('id'));
 
         if (!id) {
-            localStorage.setItem('id',0)
+            localStorage.setItem('id', 0)
         }
     }
 
@@ -37,7 +37,7 @@ class Bd {
 
     registerTask() {
         let title = titleNewTask.value.trim()
-        let text = titleNewTask.value.trim().replace(/\s{2,}/g, ' ')
+        let text = textNewTask.value.trim().replace(/\s{2,}/g, ' ')
         let id = this.nextId
 
         if (title === '')
@@ -67,7 +67,7 @@ class Bd {
 
     loadTasks(tasks = this.recoverTasks()) {
         tasks.forEach((n) => {
-            const task = document.querySelector('main > .container > .task').cloneNode(true)
+            const task = document.querySelector('main > .container-sm > .task').cloneNode(true)
 
             task.setAttribute('id', `N${n.id}`)
             task.querySelector('.title-task').textContent = n.title
@@ -88,13 +88,10 @@ document.addEventListener('click', el => {
     const e = el.target
 
     if (e.id === 'title-new-task' || e.id === 'text-new-task') {
-        //fieldNewTask.parentElement.classList.add('active')
         textNewTask.setAttribute('placeholder', 'text')
     } else if (textNewTask.value.trim() == '') {
         textNewTask.value = ''
         textNewTask.setAttribute('placeholder', '')
-        //textNewTask.style.height = '45px';
-        //fieldNewTask.parentElement.classList.remove('active')
     }
 
     if (e.id === 'btn-add-task') {

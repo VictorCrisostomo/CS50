@@ -44,8 +44,7 @@ jornal que for da preferência da pessoa.
 Logo aqui embaixo nós temos o campo das `Tasks`, que é basicamente um bloco de notas onde a pessoa vai anotar as atividades que ela tem que desempenhar durante o dia.
 Clicando aqui nesse botão ele abre um `modal` e aqui nós podemos adicionar uma nota, por exemplo: `14 horas - palestra CS50.`
 E ele já aparece aqui. Vou dar outro exemplo: `16 horas fazer exercicio da palestra.`
-E ele já fica aqui. Todas as notas ficam salvas no `localStorage` da do seu navegador. Aqui ele dá todas as configurações, o título, o texto e
-o id dessa dessa nota.
+E ele já fica aqui. Todas as notas ficam salvas no `localStorage` da do seu navegador. Aqui ele dá todas as configurações, o título, o texto e o id dessa dessa nota.
 
 ## Parte 8 - conclusão
 
@@ -58,57 +57,3 @@ Eu usei como fonte de pesquisa o `YouTube`, o `GitHub` e o `StackOverFlow` para 
 ## Parte 9 - Agradecimentos
 
 Gostaria de agradecer aos professor Daivd, a toda Equipe Staff que desenvolveram e disponibilizaram esse curso e é isso. Esse é o CS50.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
